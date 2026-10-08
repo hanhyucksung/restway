@@ -1,0 +1,706 @@
+{
+  "stops": {
+    "pine": {
+      "id": "pine",
+      "name": "솔바람 휴게소",
+      "road": "경부 라인",
+      "direction": "부산방향",
+      "km": 48,
+      "facilities": [
+        "fuel",
+        "family",
+        "baby",
+        "ev"
+      ],
+      "note": "가볍게 식사하고 쉬어가기 좋아요",
+      "foods": [
+        {
+          "name": "수제 돈가스",
+          "category": "식사",
+          "price": 11500,
+          "highlight": true
+        },
+        {
+          "name": "호두과자",
+          "category": "간식",
+          "price": 4500,
+          "highlight": true
+        },
+        {
+          "name": "아메리카노",
+          "category": "음료",
+          "price": 3500
+        }
+      ]
+    },
+    "lake": {
+      "id": "lake",
+      "name": "푸른호수 휴게소",
+      "road": "경부 라인",
+      "direction": "부산방향",
+      "km": 113,
+      "facilities": [
+        "fuel",
+        "repair",
+        "sleep",
+        "family"
+      ],
+      "note": "주유와 차량 점검이 필요할 때",
+      "foods": [
+        {
+          "name": "소고기국밥",
+          "category": "식사",
+          "price": 11000,
+          "highlight": true
+        },
+        {
+          "name": "어묵바",
+          "category": "간식",
+          "price": 3500
+        },
+        {
+          "name": "식혜",
+          "category": "음료",
+          "price": 3000
+        }
+      ]
+    },
+    "meadow": {
+      "id": "meadow",
+      "name": "들꽃 휴게소",
+      "road": "경부 라인",
+      "direction": "부산방향",
+      "km": 196,
+      "facilities": [
+        "fuel",
+        "baby",
+        "family",
+        "ev"
+      ],
+      "note": "아이와 함께 쉬어가기 좋은 곳",
+      "foods": [
+        {
+          "name": "잔치국수",
+          "category": "식사",
+          "price": 9000
+        },
+        {
+          "name": "소떡소떡",
+          "category": "간식",
+          "price": 4000,
+          "highlight": true
+        },
+        {
+          "name": "딸기라테",
+          "category": "음료",
+          "price": 5500
+        }
+      ]
+    },
+    "star": {
+      "id": "star",
+      "name": "별빛 휴게소",
+      "road": "경부 라인",
+      "direction": "부산방향",
+      "km": 292,
+      "facilities": [
+        "fuel",
+        "repair",
+        "sleep"
+      ],
+      "note": "장거리 주행 중 잠깐 휴식",
+      "foods": [
+        {
+          "name": "육개장",
+          "category": "식사",
+          "price": 10500
+        },
+        {
+          "name": "핫도그",
+          "category": "간식",
+          "price": 4000
+        },
+        {
+          "name": "카페라테",
+          "category": "음료",
+          "price": 4500
+        }
+      ]
+    },
+    "river": {
+      "id": "river",
+      "name": "강물 휴게소",
+      "road": "중부내륙 라인",
+      "direction": "남쪽방향",
+      "km": 79,
+      "facilities": [
+        "fuel",
+        "family",
+        "sleep"
+      ],
+      "note": "간식 종류가 다양한 휴게소",
+      "foods": [
+        {
+          "name": "비빔밥",
+          "category": "식사",
+          "price": 10500
+        },
+        {
+          "name": "꿀호떡",
+          "category": "간식",
+          "price": 3500,
+          "highlight": true
+        },
+        {
+          "name": "유자차",
+          "category": "음료",
+          "price": 4000
+        }
+      ]
+    },
+    "orchard": {
+      "id": "orchard",
+      "name": "과수원 휴게소",
+      "road": "중부내륙 라인",
+      "direction": "남쪽방향",
+      "km": 173,
+      "facilities": [
+        "fuel",
+        "baby",
+        "ev"
+      ],
+      "note": "간단한 먹거리와 충전 시설",
+      "foods": [
+        {
+          "name": "우동",
+          "category": "식사",
+          "price": 8500
+        },
+        {
+          "name": "사과파이",
+          "category": "간식",
+          "price": 5000,
+          "highlight": true
+        },
+        {
+          "name": "아이스티",
+          "category": "음료",
+          "price": 3500
+        }
+      ]
+    },
+    "sunset": {
+      "id": "sunset",
+      "name": "노을 휴게소",
+      "road": "중부내륙 라인",
+      "direction": "남쪽방향",
+      "km": 258,
+      "facilities": [
+        "fuel",
+        "family",
+        "repair"
+      ],
+      "note": "든든하게 한 끼를 먹고 싶은 날",
+      "foods": [
+        {
+          "name": "제육정식",
+          "category": "식사",
+          "price": 12000,
+          "highlight": true
+        },
+        {
+          "name": "군밤",
+          "category": "간식",
+          "price": 5000
+        },
+        {
+          "name": "에이드",
+          "category": "음료",
+          "price": 4500
+        }
+      ]
+    },
+    "cloud": {
+      "id": "cloud",
+      "name": "구름 휴게소",
+      "road": "우회 맛집 라인",
+      "direction": "남쪽방향",
+      "km": 101,
+      "facilities": [
+        "fuel",
+        "family",
+        "baby",
+        "sleep"
+      ],
+      "note": "이 경로에서 추천하는 특별한 먹거리",
+      "foods": [
+        {
+          "name": "직화 불고기 정식",
+          "category": "식사",
+          "price": 13500,
+          "highlight": true
+        },
+        {
+          "name": "수제 꽈배기",
+          "category": "간식",
+          "price": 4000,
+          "highlight": true
+        },
+        {
+          "name": "드립커피",
+          "category": "음료",
+          "price": 5000
+        }
+      ]
+    },
+    "forest": {
+      "id": "forest",
+      "name": "숲길 휴게소",
+      "road": "우회 맛집 라인",
+      "direction": "남쪽방향",
+      "km": 208,
+      "facilities": [
+        "fuel",
+        "ev",
+        "family",
+        "repair"
+      ],
+      "note": "든든한 한 끼와 편안한 쉼",
+      "foods": [
+        {
+          "name": "한우 곰탕",
+          "category": "식사",
+          "price": 14500,
+          "highlight": true
+        },
+        {
+          "name": "감자핫도그",
+          "category": "간식",
+          "price": 4500
+        },
+        {
+          "name": "레몬에이드",
+          "category": "음료",
+          "price": 4500
+        }
+      ]
+    },
+    "breeze": {
+      "id": "breeze",
+      "name": "산들바람 휴게소",
+      "road": "영동 라인",
+      "direction": "강릉방향",
+      "km": 83,
+      "facilities": [
+        "fuel",
+        "family",
+        "baby"
+      ],
+      "note": "국수와 간식이 있는 작은 쉼터",
+      "foods": [
+        {
+          "name": "메밀국수",
+          "category": "식사",
+          "price": 11000,
+          "highlight": true
+        },
+        {
+          "name": "감자떡",
+          "category": "간식",
+          "price": 5000
+        },
+        {
+          "name": "커피",
+          "category": "음료",
+          "price": 3000
+        }
+      ]
+    },
+    "ridge": {
+      "id": "ridge",
+      "name": "고개마루 휴게소",
+      "road": "영동 라인",
+      "direction": "강릉방향",
+      "km": 160,
+      "facilities": [
+        "fuel",
+        "repair",
+        "sleep",
+        "ev"
+      ],
+      "note": "산길을 지나기 전 잠시 쉬어요",
+      "foods": [
+        {
+          "name": "황태해장국",
+          "category": "식사",
+          "price": 11500
+        },
+        {
+          "name": "감자전",
+          "category": "간식",
+          "price": 8000,
+          "highlight": true
+        },
+        {
+          "name": "옥수수수염차",
+          "category": "음료",
+          "price": 3000
+        }
+      ]
+    },
+    "valley": {
+      "id": "valley",
+      "name": "계곡 휴게소",
+      "road": "영동 우회 라인",
+      "direction": "강릉방향",
+      "km": 128,
+      "facilities": [
+        "fuel",
+        "family",
+        "baby",
+        "ev"
+      ],
+      "note": "가족과 함께하는 식사 추천",
+      "foods": [
+        {
+          "name": "산채비빔밥",
+          "category": "식사",
+          "price": 12000,
+          "highlight": true
+        },
+        {
+          "name": "옥수수빵",
+          "category": "간식",
+          "price": 4500
+        },
+        {
+          "name": "오미자차",
+          "category": "음료",
+          "price": 4500
+        }
+      ]
+    }
+  },
+  "journeys": [
+    {
+      "key": "서울-부산",
+      "from": "서울",
+      "to": "부산",
+      "routes": [
+        {
+          "id": "fast-busan",
+          "type": "fast",
+          "label": "가장 빠른 길",
+          "subtitle": "시간을 아끼는 경로",
+          "road": "경부 고속도로 라인",
+          "distance": 398,
+          "duration": 266,
+          "toll": 24100,
+          "stops": [
+            "pine",
+            "lake",
+            "meadow",
+            "star"
+          ],
+          "tint": "#a9c4a4",
+          "points": [
+            [
+              10,
+              15
+            ],
+            [
+              20,
+              27
+            ],
+            [
+              28,
+              40
+            ],
+            [
+              37,
+              53
+            ],
+            [
+              45,
+              67
+            ],
+            [
+              59,
+              73
+            ],
+            [
+              76,
+              87
+            ],
+            [
+              89,
+              91
+            ]
+          ]
+        },
+        {
+          "id": "cheap-busan",
+          "type": "cheap",
+          "label": "비용 아끼는 길",
+          "subtitle": "통행료 부담을 낮춘 경로",
+          "road": "중부내륙 라인",
+          "distance": 416,
+          "duration": 285,
+          "toll": 15900,
+          "stops": [
+            "river",
+            "orchard",
+            "sunset"
+          ],
+          "tint": "#a8bad9",
+          "points": [
+            [
+              10,
+              15
+            ],
+            [
+              23,
+              25
+            ],
+            [
+              34,
+              39
+            ],
+            [
+              30,
+              55
+            ],
+            [
+              42,
+              67
+            ],
+            [
+              61,
+              77
+            ],
+            [
+              76,
+              87
+            ],
+            [
+              89,
+              91
+            ]
+          ]
+        },
+        {
+          "id": "food-busan",
+          "type": "food",
+          "label": "먹거리 좋은 길",
+          "subtitle": "맛있는 쉼표를 더한 경로",
+          "road": "먹거리 추천 우회 라인",
+          "distance": 429,
+          "duration": 302,
+          "toll": 26600,
+          "stops": [
+            "cloud",
+            "forest",
+            "sunset"
+          ],
+          "tint": "#efb774",
+          "points": [
+            [
+              10,
+              15
+            ],
+            [
+              21,
+              28
+            ],
+            [
+              39,
+              35
+            ],
+            [
+              51,
+              50
+            ],
+            [
+              45,
+              63
+            ],
+            [
+              65,
+              78
+            ],
+            [
+              76,
+              87
+            ],
+            [
+              89,
+              91
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "key": "서울-강릉",
+      "from": "서울",
+      "to": "강릉",
+      "routes": [
+        {
+          "id": "fast-gangneung",
+          "type": "fast",
+          "label": "가장 빠른 길",
+          "subtitle": "영동 라인 중심 경로",
+          "road": "영동 고속도로 라인",
+          "distance": 223,
+          "duration": 166,
+          "toll": 13600,
+          "stops": [
+            "breeze",
+            "ridge"
+          ],
+          "tint": "#a9c4a4",
+          "points": [
+            [
+              10,
+              15
+            ],
+            [
+              20,
+              27
+            ],
+            [
+              28,
+              40
+            ],
+            [
+              37,
+              53
+            ],
+            [
+              45,
+              67
+            ],
+            [
+              59,
+              73
+            ],
+            [
+              76,
+              87
+            ],
+            [
+              89,
+              91
+            ]
+          ]
+        },
+        {
+          "id": "cheap-gangneung",
+          "type": "cheap",
+          "label": "비용 아끼는 길",
+          "subtitle": "비용 부담이 적은 경로",
+          "road": "비용 우선 라인",
+          "distance": 237,
+          "duration": 181,
+          "toll": 9400,
+          "stops": [
+            "breeze",
+            "valley"
+          ],
+          "tint": "#a8bad9",
+          "points": [
+            [
+              10,
+              15
+            ],
+            [
+              23,
+              25
+            ],
+            [
+              34,
+              39
+            ],
+            [
+              30,
+              55
+            ],
+            [
+              42,
+              67
+            ],
+            [
+              61,
+              77
+            ],
+            [
+              76,
+              87
+            ],
+            [
+              89,
+              91
+            ]
+          ]
+        },
+        {
+          "id": "food-gangneung",
+          "type": "food",
+          "label": "먹거리 좋은 길",
+          "subtitle": "향토 음식을 곁들이는 경로",
+          "road": "먹거리 추천 우회 라인",
+          "distance": 246,
+          "duration": 194,
+          "toll": 14800,
+          "stops": [
+            "valley",
+            "ridge"
+          ],
+          "tint": "#efb774",
+          "points": [
+            [
+              10,
+              15
+            ],
+            [
+              21,
+              28
+            ],
+            [
+              39,
+              35
+            ],
+            [
+              51,
+              50
+            ],
+            [
+              45,
+              63
+            ],
+            [
+              65,
+              78
+            ],
+            [
+              76,
+              87
+            ],
+            [
+              89,
+              91
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "facilityNames": {
+    "fuel": "주유",
+    "family": "가족화장실",
+    "baby": "수유실",
+    "repair": "정비",
+    "sleep": "휴식",
+    "ev": "전기차 충전"
+  }
+}
