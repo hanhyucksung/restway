@@ -1,0 +1,15 @@
+{
+  "name": "쉼표 RESTWAY - 휴게소 여행 앱",
+  "short_name": "쉼표",
+  "description": "휴게소와 먹거리 중심 여행 계획용 시연 앱",
+  "id": "./",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#fafbf7",
+  "theme_color": "#244e39",
+  "lang": "ko",
+  "icons": [
+    {"src":"./icon.svg", "sizes":"any", "type":"image/svg+xml", "purpose":"any maskable"}
+  ]
+}
