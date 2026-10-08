@@ -1,0 +1,12 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {readFile} from 'node:fs/promises';
+import {getDirections,parseCoordinates} from './providers/naver-directions.mjs';
+import {routeRequest} from './index.mjs';
+const {stops,journeys}=JSON.parse(await readFile(new URL('../src/data/demo.json',import.meta.url),'utf8'));
+test('각 경로 휴게소 순서 및 참조 일치',()=>{for(const j of journeys){for(const r of j.routes){let n=0;for(const id of r.stops){const s=stops[id];assert.ok(s);assert.ok(s.km>n);assert.ok(s.km<r.distance);n=s.km;}}}});
+test('샘플은 실제 데이터가 아니라 예시임을 명시',()=>{assert.equal(journeys.length,2);assert.ok(Object.keys(stops).length>=10)});
+test('좌표 입력 범위 검증',()=>{assert.equal(parseCoordinates('127.1,37.1'),'127.1,37.1');assert.throws(()=>parseCoordinates('200,37'));assert.throws(()=>parseCoordinates('서울,부산'))});
+test('잘못된 URL도 파싱 단계에서 제어',()=>{assert.equal(routeRequest('/api/health').pathname,'/api/health')});
+test('API 키 없는 경우 서버 안전 실패',async()=>{await assert.rejects(()=>getDirections({start:'127,37',goal:'128,36'},{key:'',keyId:''}),{code:'NOT_CONFIGURED'})});
+test('API 응답 정규화',async()=>{const r=await getDirections({start:'127,37',goal:'128,36'},{key:'fake',keyId:'fake',fetchImpl:async()=>({ok:true,json:async()=>({code:0,route:{trafast:[{summary:{distance:120000,duration:6000000,tollFare:9000,fuelPrice:19000},path:[[127,37],[128,36]]}]}})})});assert.equal(r.routes[0].tollWon,9000);assert.equal(r.routes[0].fuelWon,19000);assert.equal(r.routes[0].distanceKm,120)});
